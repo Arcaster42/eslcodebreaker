@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ESL Code Breaker.exe" version="1.0.0.6" publicKeyToken="1209badfbb88a8e2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="eslcb_bKI_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ESL Code Breaker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ESL Code Breaker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9QuoBzmdi+reX05lQKYnBGaIlg5e4TXn27cNIsT5VS0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ESL Code Breaker.exe" size="84448">
+      <assemblyIdentity name="ESL Code Breaker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Ea9nb+vKYLvqB+V0opdifSK7z3s8LjFCD27f2ftKm3k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CFav+8r4ClgxwmYY38YB1unOd1wLuSkpeIRUIH7TX70=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ESL Code Breaker.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="eslcb_bKI_icon.ico" size="25308">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nIEeTKuBmq7bFRjXU79eZ5vMYzEN59T4caYJGo5+iv0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-63NFMCT\etern" issuerKeyHash="b8bc7f5bec53114a770d0c718cb820cdb45e6afc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gDCMqdO1jyDmstjZrt4HVl+fdn3cygJrhEHrv8BsJJc=</DigestValue></Reference></SignedInfo><SignatureValue>A0BjRBiVp9GM7MBT6iwUZaiyD6V+va2H/jjqyb2gxhAZpCc2JGsgkjmN7st6MffeoSCH//GmNGq/gxifAKK8aIKeRqldBzZdq6uNdsG3Nj1F/1468nmlHj+f0hQ/EnSIrYxUF3meYX0k1xND2Me3ddCISVlkH025SP1goFRq0ig=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>9JIH6tb8aoCvmRIAWHCjZNCz/6xcfoU64MNiL+xZml2k+geBTdgARiDxMvjqWEj1dn7iHI+/fzt1iZMYlcX1nkLOmIgoOkrrLhZwWuISxVRAeDrp19zyeJbfvVccGkEG8OqOLerrIci67TfDI2nxurqlAXSoZC2WzocjlNpR8JU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="97246cc0bfeb41846b02cadc7d769f5f5607deaed9d8b2e6208fb5d3a98c3080" Description="" Url=""><as:assemblyIdentity name="ESL Code Breaker.exe" version="1.0.0.6" publicKeyToken="1209badfbb88a8e2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-63NFMCT\etern</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>a/n5l1sOEDC36XXSUvnKcOmnDuQwb/wqFQ/Yf5Q390A=</DigestValue></Reference></SignedInfo><SignatureValue>I9+ei4X7pwgHhNUEgwuKS+ZTGHFsruq5kO5N3kvq3IsYe9qGHPvJXVriNt9vKg3BQfc0k6CYZ+1ieBjoAqcP1hK66bEJfC9/jZ9iH7zuQh4sd7Rtz+1MwSJ+VdzH7N/rKqlC6jx9Lo+xJFDTxxblqngqxuR24XzOsB1aLdVQtYw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>9JIH6tb8aoCvmRIAWHCjZNCz/6xcfoU64MNiL+xZml2k+geBTdgARiDxMvjqWEj1dn7iHI+/fzt1iZMYlcX1nkLOmIgoOkrrLhZwWuISxVRAeDrp19zyeJbfvVccGkEG8OqOLerrIci67TfDI2nxurqlAXSoZC2WzocjlNpR8JU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQRfXlfJF/3ohO9Pspa3Po0zANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYAMwBOAEYATQBDAFQAXABlAHQAZQByAG4wHhcNMTYwMzAzMDE1MDU5WhcNMTcwMzAzMDc1MDU5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYAMwBOAEYATQBDAFQAXABlAHQAZQByAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPSSB+rW/GqAr5kSAFhwo2TQs/+sXH6FOuDDYi/sWZpdpPoHgU3YAEYg8TL46lhI9XZ+4hyPv387dYmTGJXF9Z5CzpiIKDpK6y4WcFriEsVUQHg66dfc8niW371XHBpBBvDqji3q6yHIuu03wyNp8bq6pQF0qGQtls6HI5TaUfCVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAl3rA+8DGSfPexkSvPqi5+u4fIfqpihGTJfZBrGiHdlR0vXZP2K0tZ673hTaYBaqYwmiWiNeo3vI47yCPOTWq3faR0W4q9g3eKAe7Cl++eJ34Ko5x/rDN7anb7wKRQHspLGIRhBMP9chCDy+Y5DfGPKE57iweaquPFaosddyP/NE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
